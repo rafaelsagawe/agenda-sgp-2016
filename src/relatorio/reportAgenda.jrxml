@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8c2dc384-8bee-46c8-bfeb-cdebfbe82b23">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     agenda_sgp.`agenda_data` AS agenda_data,
+     agenda_sgp.`agenda_horario` AS agenda_horario,
+     agenda_sgp.`agenda_publico` AS agenda_publico,
+     agenda_sgp.`agenda_evento` AS agenda_evento,
+     agenda_sgp.`agenda_equipe` AS agenda_equipe,
+     agenda_sgp.`agenda_local` AS agenda_local
+FROM
+     `agenda_sgp` agenda_sgp]]>
+	</queryString>
+	<field name="agenda_data" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agenda_horario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agenda_publico" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agenda_evento" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agenda_equipe" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="agenda_local" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="802" height="79" uuid="570f1310-751a-44a7-9a1a-a70158ce2b1f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="379" y="34" width="100" height="20" uuid="b942e617-67d8-4027-aac5-e9e5c4f5b30c"/>
+				<text><![CDATA[Agenda de julho]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="73" height="79" uuid="73846cca-f8e4-4eab-ac68-5f1bc42af1f8"/>
+				<imageExpression><![CDATA["C:\\Users\\ti.semed\\Desktop\\534px-Brasão_de_Nova_Iguaçu.svg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="11" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="0" width="802" height="33" uuid="86bc7389-d1eb-4a5e-b756-b0bf74b4f895"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="28" y="2" width="100" height="20" uuid="9b0d8b46-a14c-40e9-bce4-4325d075ac69"/>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="1" width="100" height="20" uuid="1b04ccdb-e885-4593-8c86-9b8ca1bb7e8c"/>
+				<text><![CDATA[local]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="185" y="0" width="100" height="20" uuid="0608f827-9719-42c6-b3bd-694a46284db8"/>
+				<text><![CDATA[Horario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="529" y="0" width="100" height="20" uuid="1cde0867-daad-41f9-9344-f027b7b265dc"/>
+				<text><![CDATA[Evento]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="0" width="802" height="26" uuid="c6be7661-11f3-4c93-b762-f71787a2463c"/>
+			</rectangle>
+			<textField>
+				<reportElement x="26" y="4" width="100" height="20" uuid="e6119e5e-aa5e-403d-9e23-b54e8e17253c"/>
+				<textFieldExpression><![CDATA[$F{agenda_data}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="4" width="100" height="20" uuid="c0353ef1-4a7f-4d82-a302-f7b689aed685"/>
+				<textFieldExpression><![CDATA[$F{agenda_horario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="4" width="100" height="20" uuid="79ac6dfc-4608-4e0a-9d03-c89a9767de49"/>
+				<textFieldExpression><![CDATA[$F{agenda_local}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="529" y="4" width="100" height="20" uuid="d1e1e617-2b7a-4b86-b157-5a54e0d09f72"/>
+				<textFieldExpression><![CDATA[$F{agenda_evento}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="70" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
