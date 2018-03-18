@@ -1,4 +1,4 @@
-# agenda-sgp-2016
+# Agenda SGP - 2016
 
 Aplicação criada para marcação de evendos da Subsecretaria de Gestão Pedagogica 
 
