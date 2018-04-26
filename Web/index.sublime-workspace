@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/semed/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/semed/Documentos/agenda/templates/AgendaSGPListView.tpl.php",
+		"/home/semed/Documentos/agenda/templates/_Header.tpl.php",
+		"/home/semed/Documentos/agenda/templates/SecureExample.tpl.php",
+		"/home/semed/Documentos/agenda/libs/Controller/AgendaSGPController.php",
+		"/home/semed/Documentos/agenda/libs/Controller/AppBaseController.php",
+		"/home/semed/Documentos/agenda/libs/Model/AgendaSGP.php",
+		"/home/semed/Documentos/agenda/libs/Model/AgendaSGPCriteria.php",
+		"/tmp/fz3temp-1/configuration.yml",
+		"/tmp/fz3temp-1/configuration.yml.example",
+		"/tmp/fz3temp-1/README.md",
+		"/tmp/fz3temp-1/settings.yml",
+		"/tmp/fz3temp-1/_app_config.php",
+		"/tmp/fz3temp-1/web.config",
+		"/tmp/fz3temp-1/.htaccess",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/agendasgps.js",
+		"/tmp/fz3temp-1/view.js",
+		"/tmp/fz3temp-1/_global_config.php",
+		"/tmp/fz3temp-1/composer.json",
+		"/tmp/fz3temp-1/AgendaSgp.php",
+		"/tmp/fz3temp-1/AgendaSgpController.php",
+		"/tmp/fz3temp-1/style.css",
+		"/tmp/fz3temp-1/SetoresController.php",
+		"/tmp/fz3temp-1/AppBaseController.php",
+		"/tmp/fz3temp-1/phreeze-3.3.8.phar",
+		"/tmp/fz3temp-1/SetoresReporter.php",
+		"/tmp/fz3temp-1/AgendaSgpReporter.php",
+		"/tmp/fz3temp-1/config.php",
+		"/tmp/fz3temp-1/README",
+		"/tmp/fz3temp-1/config.php.sample",
+		"/tmp/fz3temp-1/pgsql_native_moodle_database.php",
+		"/tmp/fz3temp-1/moodle_phpmailer.php",
+		"/tmp/fz3temp-1/class.smtp.php",
+		"/tmp/fz3temp-1/moodlelib.php",
+		"/tmp/fz3temp-1/class.phpmailer.php",
+		"/home/semed/Dropbox/Projetos/Projeto - Compartilhamento de arquivos e backup/cobian/MainList.lst",
+		"/home/semed/Área de Trabalho/moodle.sql",
+		"/home/semed/Documentos/56cf55f189f5cf12650002a2/app-root/data/current/config-dist.php",
+		"/home/semed/Documentos/56cf55f189f5cf12650002a2/app-root/data/current/config.php",
+		"/home/semed/Documentos/56cf55f189f5cf12650002a2/app-root/data/muc/config.php",
+		"/home/semed/Downloads/postgresql.conf",
+		"/home/semed/Documentos/56cf55f189f5cf12650002a2/app-root/data/current/install.php",
+		"/home/semed/Downloads/chant/index.php",
+		"/home/semed/Dropbox/Rafael - 2016/censo/EducacensoFieldHelper.inc.php",
+		"/home/semed/Dropbox/ieducar/intranet/index.php",
+		"/home/semed/Dropbox/Rafael - 2016/censo/educacenso_importer.php",
+		"/home/semed/Downloads/jquery.dataTables.js",
+		"/home/semed/Dropbox/Rafael - 2016/censo/1510601_24_33052522_MUNICIPAL_12042016173833",
+		"/home/semed/compartilhados/Part_1.1.plain",
+		"/home/semed/Downloads/phpEventCalendar_Lite/pec.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/examples/basic_calendar.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/includes/calendar-search.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/examples/basic_calendar_array.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/guest/index.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/plugins/date.js",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/adodb5/adodb.inc.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/adodb5/server.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/calendar.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/conf.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/guest.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/index.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar.custom.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar.print.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/pec-common.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/uploadify.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/start/jquery-ui.custom.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar-2.0.0/fullcalendar.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar-2.0.0/fullcalendar.custom.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar-2.0.0/fullcalendar.print.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/css/fullcalendar-2.0.0/start/jquery-ui.min.css",
+		"/home/semed/Downloads/phpEventCalendar_Lite/logout.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/includes/top-navigation.html",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/includes/top-navigation.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/login.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/includes/unlock-massage.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_calendar_settings.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_security.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_db.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/js/custom/calendar.js.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_phpeventcal.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_util.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/calendar-create.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/html/calendar-update.html.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/adodb5/adodb-csvlib.inc.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/ajax/calendar_manager.php",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/adodb5/lang/adodb-pt-br.inc.php",
+		"/home/semed/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/semed/Downloads/phpEventCalendar_Lite/server/classes/cls_core.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SMTP_PORT",
+			"fullcalendar",
+			"lan",
+			"lang",
+			"March"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
